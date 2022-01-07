@@ -1,0 +1,23 @@
+header img{
+    height: 80px;
+    float: left;
+    margin-right: 30px;
+}
+
+main{
+    clear: left;
+}
+.name{
+    color: brown;
+}
+
+header span{
+    text-shadow: 2px 2px 2px brown;
+}
+main img{
+    height: 80px;
+}
+
+footer{
+    text-align: center;
+}
