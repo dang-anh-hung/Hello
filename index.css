@@ -1,23 +1,58 @@
-header img{
-    height: 80px;
-    float: left;
-    margin-right: 30px;
+:root{
+    background-image: linear-gradient(to bottom,white,yellow,orange);
+    --text-color: brown;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 600px;
+    border: 3px solid var(--text-color);
+    margin: 15px auto;
+    background-color: aquamarine;
+    box-shadow: 5px 8px 8px black;
+    border-radius: 5px;
 }
 
+header img{
+    height: 100px;
+    float: left;
+    margin: 0 30px;
+}
+header h2,h3{
+    text-align: center;
+    color: var(--text-color);
+}
+header{
+    background-image: linear-gradient(to left bottom, brown,white,brown);
+    height: 100px;
+    border-bottom: 3px solid var(--text-color);
+    padding :10px 0 15px 0;
+    
+}
 main{
     clear: left;
+    padding:  0 30px;
 }
 .name{
-    color: brown;
+    color: var(--text-color);
 }
-
-header span{
-    text-shadow: 2px 2px 2px brown;
+hr{
+    height: 3px;
+    background-color: var(--text-color);
 }
-main img{
+main h3{
+    text-align: left;
+}
+main img,a{
     height: 80px;
+    color: blue;
+    font-size: 1rem;
 }
 
 footer{
+    height: 50px;
+    background-color: var(--text-color);
+    color: white;
     text-align: center;
 }
