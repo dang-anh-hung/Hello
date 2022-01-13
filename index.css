@@ -6,34 +6,14 @@
     padding: 0;
 }
 body{
-    width: 600px;
+    width: 800px;
     border: 3px solid var(--text-color);
     margin: 15px auto;
-    background-color: aquamarine;
+    background-color: lightblue;
     box-shadow: 5px 8px 8px black;
     border-radius: 5px;
 }
 
-header img{
-    height: 100px;
-    float: left;
-    margin: 0 30px;
-}
-header h2,h3{
-    text-align: center;
-    color: var(--text-color);
-}
-header{
-    background-image: linear-gradient(to left bottom, brown,white,brown);
-    height: 100px;
-    border-bottom: 3px solid var(--text-color);
-    padding :10px 0 15px 0;
-    
-}
-main{
-    clear: left;
-    padding:  0 30px;
-}
 .name{
     color: var(--text-color);
 }
@@ -41,8 +21,46 @@ hr{
     height: 3px;
     background-color: var(--text-color);
 }
-main h3{
-    text-align: left;
+/* header h2 h3{
+    text-align: center;
+    color: var(--text-color);
+} */
+header{
+    background-image: linear-gradient(to left bottom, brown,white,brown);
+    height: 100px;
+    border-bottom: 3px solid var(--text-color);
+    padding :10px 0 15px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+header>img{
+    height: 100px;
+    margin: 0 30px;
+}
+header h2{
+    color: var(--text-color);
+}
+header span{
+    text-shadow: 3px 1px brown;
+}
+main{
+    padding:  0 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+article{
+   display: flex;
+   flex-direction: row;
+}
+article h4{
+    margin: unset;
+}
+.authors{
+    padding-right: 100px;
+}
+article img{
+    height: 250px!important;
+    width: 250px;
 }
 main img,a{
     height: 80px;
@@ -56,3 +74,5 @@ footer{
     color: white;
     text-align: center;
 }
+
+

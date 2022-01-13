@@ -1,0 +1,98 @@
+header{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container>div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin:5px;
+}
+.container_1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_1>div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin:5px;
+}
+.container_2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container_2>div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin:5px;
+}
+.css{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.triangle_top {
+	width: 0px;
+	height: 0px;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-bottom: 15px solid blue;
+}
+.triangle_right {
+	width: 0px;
+	height: 0px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid blue;
+}
+.triangle_bottom {
+	width: 0px;
+	height: 0px;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-top: 15px solid blue;
+}
+.triangle_left {
+	width: 0px;
+	height: 0px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid blue;
+}
+
+.circle{
+        width: 100px;
+        height: 100px;
+        background: red;
+        border-radius: 50%;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        
+}
+
